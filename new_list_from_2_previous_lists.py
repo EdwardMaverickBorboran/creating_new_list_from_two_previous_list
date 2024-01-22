@@ -23,4 +23,18 @@ list2 = [40, 45, 60, 75, 90]
 # Creating an empty list
 results_list = []
 
+# Iterating the first list
+for number in list1:
+    if number % 2 != 0:
+        results_list.append(number)
+
+# Iterating the first list
+for number in list2:
+    if number % 2 == 0:
+        results_list.append(number)
+
+print("Here is the new results:", results_list)
+
+
+
 
